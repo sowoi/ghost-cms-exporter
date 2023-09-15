@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ghost-cms-exporter"
+version = "0.8"
+description = "Ghost CMS DB exporter script"
+authors = ["Massoud Ahmed"]
+license = "GPLv3"
+readme = "README.md"
+packages = [{include = "ghost_cms_exporter"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
